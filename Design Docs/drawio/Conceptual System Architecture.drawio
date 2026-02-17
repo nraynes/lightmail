@@ -1,0 +1,273 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="IlijrVHWqfo5nT-DfeyR">
+    <mxGraphModel dx="1002" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="93-MSkELI90Vl9CeT8lP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="1300" width="1730" x="960" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1708" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="600" width="230" x="1320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1732" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="600" width="230" x="1840" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1741" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="600" width="230" x="2100" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1721" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="600" width="230" x="1580" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1710" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;b&gt;Ingress&lt;/b&gt;&lt;div&gt;&lt;b&gt;Controller&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="600" width="80" x="1220" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1704" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="90" width="70" x="1040" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1718" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1705" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1717">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="675" />
+              <mxPoint x="1260" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1705" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Users" vertex="1">
+          <mxGeometry height="30" width="70" x="1040" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1706" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="90" width="70" x="1040" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1720" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1707" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1713">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="855" />
+              <mxPoint x="1260" y="1075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1760" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1707" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1716">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="855" />
+              <mxPoint x="1260" y="985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1707" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Developers" vertex="1">
+          <mxGeometry height="30" width="70" x="1040" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1709" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;User Interface&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="1320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1752" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1735">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1075" />
+              <mxPoint x="1830" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1753" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1739">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1075" />
+              <mxPoint x="1830" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1759" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1740">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1075" />
+              <mxPoint x="1830" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1786" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shadow=1;strokeWidth=2;" target="deTtVbom349j7HBjlkId-1728">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1713" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Records UI&lt;/b&gt;&lt;div&gt;&lt;i&gt;(Events, Logs, Metrics)&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1330" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1762" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1716" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1761">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="985" />
+              <mxPoint x="1560" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1787" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1716" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;shadow=1;" target="deTtVbom349j7HBjlkId-1728">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1716" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Configuration UI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="1330" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1747" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1717" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1725">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1748" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1717" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1727">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1749" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1717" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1728">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1750" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1717" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1729">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1717" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;App UI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1330" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1722" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Main Services&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="1580" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1773" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1725" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1734">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1725" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Security Service&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles encryption/decryption tasks &amp;amp; monitors security events.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1590" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1775" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1727" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1734">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1727" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Account Service&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles user account actions.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="1590" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1776" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1728" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1734">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1728" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Auth Service&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles all authentication and authorization functions.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1590" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1751" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1729" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1730">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1777" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1729" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1734">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1790" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1729" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1735">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1729" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Mail Service&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles all mail related tasks as well as interfacing with the MTA.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1590" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1730" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Mail Transfer Agent&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles transfer of mail between app and external email providers.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1590" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1733" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Manager Services&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="1840" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1779" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1734" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1743">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1792" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1734" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1735">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1825" y="632" />
+              <mxPoint x="1825" y="940" />
+            </Array>
+            <mxPoint x="1855" y="632.5" as="sourcePoint" />
+            <mxPoint x="1855" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1734" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Database Manager&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles interactions with the app database and caching.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1850" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1755" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1735" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1744">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1735" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Metric Manager&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles metric collection, processing, storing,&amp;nbsp;&lt;/i&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and retrieval.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="1850" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1756" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1739" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1745">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1739" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Log Manager&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles log collection, processing, storing, and retrieval.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="1850" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1757" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1740" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1746">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1740" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Event Manager&lt;/b&gt;&lt;div&gt;&lt;i&gt;Handles event collection, processing, storing, retrieval, and replaying.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="1850" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1742" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Databases&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="230" x="2100" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1743" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;App Database&lt;/b&gt;&lt;div&gt;&lt;i&gt;Database that stores all application data.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="2110" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1744" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Metric Database&lt;/b&gt;&lt;div&gt;&lt;i&gt;Database that stores all metrics.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="2110" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1745" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Log&amp;nbsp;&lt;/b&gt;&lt;b&gt;Database&lt;/b&gt;&lt;div&gt;&lt;i&gt;Database that stores all logs.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="2110" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1746" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Event&amp;nbsp;&lt;/b&gt;&lt;b&gt;Database&lt;/b&gt;&lt;div&gt;&lt;i&gt;Database that stores all events.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="2110" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1768" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1761" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1735">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1005" />
+              <mxPoint x="1830" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1769" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1761" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1739">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1005" />
+              <mxPoint x="1830" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1770" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1761" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1740">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1005" />
+              <mxPoint x="1830" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1778" edge="1" parent="1" source="deTtVbom349j7HBjlkId-1761" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="deTtVbom349j7HBjlkId-1729">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="987" />
+              <mxPoint x="1570" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1761" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Configuration Service&lt;/b&gt;&lt;div&gt;&lt;i&gt;Allows for configuration of certain things within services without having to restart the application.&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="1590" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1781" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="220" width="250" x="1990" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1782" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Decision Note&lt;/h1&gt;&lt;p&gt;Databases are decoupled from services via a manager that can handle additional functionality such as caching data, processing data into other formats for use, or even gathering data based on logical rules. Workload can be distributed among a cluster of managers that can scale as needed rather than placing the burden on the database or service.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="230" x="2000" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1784" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="340" width="250" x="2370" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1785" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Decision Note&lt;/h1&gt;&lt;p&gt;Records are separated by Metrics, Logs, and Events. These are stored in separate databases with separate managers for each.&lt;/p&gt;&lt;p&gt;Having separate managers allows processing and handling of each record type to scale independently based on need, have base manager logic that can be reused among each manager, and have additional logic specific to each record type tacked onto that specific manager.&lt;/p&gt;&lt;p&gt;Having separate databases allows for separating security and availability concerns. Compromise/failure of one database does not affect the others.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="310" width="230" x="2380" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1788" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#88FFF3;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#8DFFEF;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="230" width="300" x="1370" y="1175" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1789" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Implementation Note&lt;/h1&gt;&lt;p&gt;All individual services in this diagram are actually clusters containing multiple instances of that service. The minimum amount of each service is configurable and such configuration can be modified via the Configuration Service or start up environment configuration. Each cluster will be able to scale it&#39;s services independently to meet the needs of it&#39;s workload, and handle fault tolerance actions such as dynamically restarting downed services.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="280" x="1380" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1793" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#88FFF3;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#8DFFEF;shadow=1;size=20;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="350" width="300" x="1740" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="deTtVbom349j7HBjlkId-1794" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Implementation Note&lt;/h1&gt;&lt;p&gt;Essential app services will have a distributed event queue to handle workload. Different modes will be available to handle event replay functionality. Modes will be either:&lt;/p&gt;&lt;p&gt;&lt;b&gt;Foreman: &lt;/b&gt;Event Manager collects events before they can be started, and will issue replay of those events if they are lost.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Custodian: &lt;/b&gt;Events are started by services before being sent to the Event Manager, where that Event Manager will store those events and issue replays if a problem is reported where those events have been lost.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Council: &lt;/b&gt;Events are copied and recorded by peers and replayed in the event of a problem where those events are lost. Events may still be forwarded to an Event Manager for persistent storage.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="320" width="280" x="1750" y="1180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
