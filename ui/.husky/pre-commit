@@ -1,2 +1,2 @@
-echo "This is a test log to check pre-commit function in ui test."
+echo "This is a test log to check pre-commit function in ui."
 npx lint-staged
