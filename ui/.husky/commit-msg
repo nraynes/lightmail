@@ -1,2 +1,2 @@
-echo "Running commit-msg hooks..."
+echo "Running commit-msg hooks in ui..."
 npx --no -- commitlint --edit $1 --verbose
