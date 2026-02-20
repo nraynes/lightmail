@@ -8,14 +8,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  format:
+  build-release:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check function.
-        run: |
-          ls
-          cd ui
-          ls
+      - name: Enter UI project
+        run: cd ui
+
+      - name: Run linter
+        run: npm run lint
+
+      - name: Run tests
+        run: npm run test
+
+      - name: Update release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release@25 --internal ui/release.config.js
+        
