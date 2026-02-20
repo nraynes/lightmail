@@ -7,10 +7,11 @@ projects="$(bash "$ghooks_scripts_dir/getprojects.sh")"
 echo "Running commitlint..."
 npx --no -- commitlint --edit $1 --verbose
 
-# Prepend projects.
+# Prepend altered projects to commit message.
 if [ ${#projects[@]} != 0 ]; then
-    prepension="$(echo "$projects" | sed 's/ /:/g')"
-    echo $prepension
+    prefix="$(echo "$projects" | sed 's/ /:/g')"
+    echo "Adding prefix with altered projects to commit message..."
+    echo "[$prefix] | $(cat $1)" > $1
 fi
 
 # Run sub-project hooks.
