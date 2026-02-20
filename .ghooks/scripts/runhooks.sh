@@ -7,14 +7,10 @@ hook="$1"
 
 echo "Running monorepo commit hook $hook..."
 
-sub_projects_changed=()
-
-for item in ${staged[@]}; do
-    staged_root="$(echo "$item" | cut -d '/' -f 1)"
-    if [[ ${projects[@]} =~ $staged_root ]] && [[ ! ${sub_projects_changed[@]} =~ $staged_root ]]; then
-        sub_projects_changed+=($staged_root)
-    fi
-done
+if [ "$2" == "" ]; then
+    echo "TEST"
+fi
+sub_projects_changed=("$(bash "$ghook_scripts_dir/alteredprojects.sh")")
 
 for sub_project in ${sub_projects_changed[@]}; do
     if [ -f "$main_project_path/$sub_project/.ghooks/hooks/$hook" ]; then
