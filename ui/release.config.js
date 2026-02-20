@@ -1,5 +1,6 @@
 export default {
   branches: ["main"],
+  tagFormat: "v${version}-ui",
   plugins: [
     [
       "@semantic-release/commit-analyzer",
