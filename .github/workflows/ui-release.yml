@@ -24,4 +24,4 @@ jobs:
       - name: Update release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: cd ui && npx --package semantic-release@25 --package @semantic-release/exec --package @semantic-release/git semantic-release --internal ui/release.config.js
+        run: cd ui && npx --package semantic-release@25 --package @semantic-release/exec --package @semantic-release/git semantic-release --debug --config ui/release.config.js
