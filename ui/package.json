@@ -9,11 +9,13 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write . && eslint --fix .",
-    "prepare": "husky"
+    "format": "prettier --write . && eslint --fix ."
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown && eslint --fix"
+    "**/*": [
+      "npx prettier --write --ignore-unknown",
+      "npx eslint --fix"
+    ]
   },
   "license": "GPL-3.0-only",
   "devDependencies": {
