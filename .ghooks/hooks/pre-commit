@@ -1,0 +1,3 @@
+ghook_main_hooks_dir="$(realpath "$(dirname "$0")")"
+ghooks_main_path="$(dirname "$ghook_main_hooks_dir")"
+bash "$ghooks_main_path/scripts/runhooks.sh" "$(basename "$0")"
