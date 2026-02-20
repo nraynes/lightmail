@@ -1,0 +1,23 @@
+name: UI CI/CD Release
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'ui/**'
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '24'
+
+      - name: Update release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: cd ui && npx --package semantic-release@25 --package @semantic-release/exec --package @semantic-release/git semantic-release --internal ui/release.config.js
