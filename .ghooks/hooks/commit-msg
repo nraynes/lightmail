@@ -11,7 +11,7 @@ npx --no -- commitlint --edit $1 --verbose
 if [ ${#projects[@]} != 0 ]; then
     prefix="$(echo "$projects" | sed 's/ /:/g')"
     echo "Adding prefix with altered projects to commit message..."
-    echo "[$prefix] | $(cat $1)" > $1
+    echo "[$prefix] $(cat $1)" > $1
 fi
 
 # Run sub-project hooks.
