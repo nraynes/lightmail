@@ -6,7 +6,7 @@ echo $projects
 echo $commit_message
 
 # Do not run for merges or reverts.
-if [[ $commit_message =~ "^(Merge|Revert)" ]]; then
+if [[ $commit_message =~ "^(Merge|Revert){1}" ]]; then
     echo "Merge/Revert detected. Skipping commit-msg hook..."
     exit 0
 fi
