@@ -1,3 +1,0 @@
-echo "Running commit-msg hooks..."
-echo "$(pwd)"
-npx --no -- commitlint --edit $1 --verbose

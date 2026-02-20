@@ -17,6 +17,9 @@ for item in ${staged[@]}; do
 done
 
 for sub_project in ${sub_projects_changed[@]}; do
-    echo "Running $hook for sub-project $sub_project..."
-    bash "$main_project_path/$sub_project/.ghooks/hooks/$hook"
+    if [ -f "$main_project_path/$sub_project/.ghooks/hooks/$hook" ]; then
+        echo "Running $hook for sub-project $sub_project..."
+        cd "$main_project_path/$sub_project"
+        bash "$main_project_path/$sub_project/.ghooks/hooks/$hook"
+    fi
 done
