@@ -6,21 +6,20 @@ export default {
       {
         releaseRules: [
           {
-            type: "feat",
+            header: "^\\[.*ui:?.*\\] (feat):",
             release: "minor",
-            commitMessage: "^\\[.*ui:?.*\\] (feat):",
           },
           {
-            type: "fix",
+            header: "^\\[.*ui:?.*\\] (fix):",
             release: "patch",
-            commitMessage: "^\\[.*ui:?.*\\] (fix):",
           },
           {
             type: "breaking",
+            header: "^\\[.*ui:?.*\\].*(BREAKING CHANGE):",
             release: "major",
-            commitMessage: "^\\[.*ui:?.*\\].*(BREAKING CHANGE):",
           },
         ],
+        ignoreDefaultRules: true,
       },
     ],
     [
