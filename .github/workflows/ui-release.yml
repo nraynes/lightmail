@@ -1,14 +1,14 @@
-name: UI CI/CD
+name: UI CI/CD Release
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
     paths:
       - 'ui/**'
   workflow_dispatch:
 
 jobs:
-  build-release:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,17 +17,7 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Install dependencies
-        run: cd ui && npm install
-
-      - name: Run linter
-        run: cd ui && npm run lint
-
-      - name: Run tests
-        run: cd ui && npm run test
-
       - name: Update release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: cd ui && npx --package semantic-release@25 --package @semantic-release/exec --package @semantic-release/git semantic-release --internal ui/release.config.js
-
