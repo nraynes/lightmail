@@ -7,5 +7,11 @@ projects="$(bash "$ghooks_scripts_dir/getprojects.sh")"
 echo "Running commitlint..."
 npx --no -- commitlint --edit $1 --verbose
 
+# Prepend projects.
+if [ ${#projects[@]} != 0 ]; then
+    prepension="$(echo "$projects" | sed 's/ /:/g')"
+    echo $prepension
+fi
+
 # Run sub-project hooks.
 bash "$ghooks_scripts_dir/runhooks.sh" "$(basename "$0")"
