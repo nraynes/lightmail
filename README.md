@@ -11,4 +11,8 @@ Clone the repository to your desired location, then cd into it in your terminal 
 
     bash init.sh
 
-This will install the commitlint package and setup the custom git hook manager for the monorepo. Commitlint is configured to use the Conventional Commits standard.
+This will set up all the necessary dependencies and git hooks for the monorepo as well as all subprojects.
+
+## Commits
+
+The Conventional Commits standard is enforced via commitlint in the monorepo, so that all sub-projects follow the same commit standard. Semantic versioning for each project is handled separately by a package specific to that project. All sub-projects use Conventional Commits for semantic versioning.
