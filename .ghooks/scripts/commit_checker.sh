@@ -6,13 +6,14 @@ echo $projects
 echo $commit_message
 
 # Do not run for merges or reverts.
-if [[ $commit_message =~ "^(Merge|Revert){1}" ]]; then
+rule_github_merges_ok="^(Merge|Revert){1}"
+if [[ "$commit_message" =~ $rule_github_merges_ok ]]; then
     echo "Merge/Revert detected. Skipping commit-msg hook..."
-    exit 0
+    exit 1
 fi
 
 # Rule (EXTENSION): Ensure sub-project label matches available project.
-if [[ ! $commit_message =~ "" ]]; then
+if [[ ! "$commit_message" =~ "" ]]; then
     echo "Merge/Revert detected. Skipping commit-msg hook..."
     exit 1
 fi
