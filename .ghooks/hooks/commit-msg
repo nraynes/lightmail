@@ -1,15 +1,15 @@
 ghook_main_hooks_dir="$(realpath "$(dirname "$0")")"
 ghooks_main_path="$(dirname "$ghook_main_hooks_dir")"
 ghooks_scripts_dir="$ghooks_main_path/scripts"
-projects="$(bash "$ghooks_scripts_dir/getprojects.sh")"
+altered_projects="$(bash "$ghooks_scripts_dir/alteredprojects.sh")"
 
 # Run commitlint
 echo "Running commitlint..."
 npx --no -- commitlint --edit $1 --verbose
 
 # Prepend altered projects to commit message.
-if [ ${#projects[@]} != 0 ]; then
-    prefix="$(echo "$projects" | sed 's/ /:/g')"
+if [ ${#altered_projects[@]} != 0 ]; then
+    prefix="$(echo "$altered_projects" | sed 's/ /:/g')"
     echo "Adding prefix with altered projects to commit message..."
     echo "[$prefix] $(cat $1)" > $1
 fi

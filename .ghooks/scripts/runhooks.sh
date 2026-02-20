@@ -1,15 +1,11 @@
 ghook_scripts_dir="$(realpath "$(dirname "$0")")"
 ghooks_main_path="$(dirname "$ghook_scripts_dir")"
 main_project_path="$(dirname $ghooks_main_path)"
-projects=("$(bash "$ghook_scripts_dir/getprojects.sh")")
 staged=("$(git diff --name-only --cached)")
 hook="$1"
 
 echo "Running monorepo commit hook $hook..."
 
-if [ "$2" == "" ]; then
-    echo "TEST"
-fi
 sub_projects_changed=("$(bash "$ghook_scripts_dir/alteredprojects.sh")")
 
 for sub_project in ${sub_projects_changed[@]}; do
