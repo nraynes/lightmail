@@ -6,9 +6,9 @@ projects=("$(bash "$ghook_scripts_dir/getprojects.sh")")
 echo
 echo "Initializing GHook..." 
 current_git_hooks_path="$(git config --get core.hooksPath)"
-if [ "$current_git_hooks_path" != "$ghooks_main_path" ]; then
+if [ "$current_git_hooks_path" != "$ghooks_main_hooks_path" ]; then
     echo "Setting git hook path..."
-    git config core.hooksPath $ghooks_main_path
+    git config core.hooksPath $ghooks_main_hooks_path
 fi
 echo
 echo "Would you like to add a sub-project?"
