@@ -1,7 +1,7 @@
 ghook_main_hooks_dir="$(realpath "$(dirname "$0")")"
 ghooks_main_path="$(dirname "$ghook_main_hooks_dir")"
 ghooks_scripts_dir="$ghooks_main_path/scripts"
-projects="$(bash "$ghook_scripts_dir/getprojects.sh")"
+projects="$(bash "$ghooks_scripts_dir/getprojects.sh")"
 
 # Run commit checker.
 bash "$ghooks_scripts_dir/commit_checker.sh" "$(cat $1)" "$projects"

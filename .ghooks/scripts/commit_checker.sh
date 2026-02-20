@@ -15,4 +15,5 @@ if [[ ! $commit_message =~ "" ]]; then
     echo "Merge/Revert detected. Skipping commit-msg hook..."
     exit 1
 fi
+echo "Exiting commit"
 exit 1
