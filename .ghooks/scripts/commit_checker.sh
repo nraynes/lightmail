@@ -1,7 +1,7 @@
 # Extended Conventional Commits 1.0.0
 
 commit_message="$1"
-projects="$("$2" | sed 's/ /|/g')"
+projects="$(echo "$2" | sed 's/ /|/g')"
 echo $projects
 echo $commit_message
 
