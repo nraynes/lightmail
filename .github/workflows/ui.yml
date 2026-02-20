@@ -13,6 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '24'
 
       - name: Install dependencies
         run: cd ui && npm install
