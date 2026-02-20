@@ -5,4 +5,10 @@ Lightmail designed to be a fully featured email application with a robust set of
 like mailbox rules, advanced filtering, blacklisting, creating multiple unlimited 
 mailboxes with their own address that you can send or receive mail from, etc.
 
-**To be continued at a later date...**
+## Installation
+
+Clone the repository to your desired location, then cd into it in your terminal and run the following commands.
+
+    bash init.sh
+
+This will install the commitlint package and setup the custom git hook manager for the monorepo. Commitlint is configured to use the Conventional Commits standard.
