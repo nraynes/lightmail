@@ -4,6 +4,7 @@ ghooks_scripts_dir="$ghooks_main_path/scripts"
 projects="$(bash "$ghooks_scripts_dir/getprojects.sh")"
 
 # Run commitlint
+echo "Running commitlint..."
 npx --no -- commitlint --edit \$1 --verbose
 
 # Run sub-project hooks.
