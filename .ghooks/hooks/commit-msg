@@ -8,7 +8,7 @@ echo "Running commitlint..."
 npx --no -- commitlint --edit $1 --verbose
 
 # Prepend altered projects to commit message.
-echo "${#altered_projects[@]}"
+echo "${altered_projects[@]}"
 if [ ${#altered_projects[@]} != 0 ]; then
     prefix="$(echo "$altered_projects" | sed 's/ /:/g')"
     echo "Adding prefix with altered projects to commit message..."
