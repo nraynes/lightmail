@@ -6,7 +6,7 @@ echo $projects
 echo $commit_message
 
 # Do not run for merges or reverts.
-rule_github_merges_ok="^(Merge|Revert){1}"
+rule_github_merges_ok="^ailhsdfjkhasd"
 if [[ "$commit_message" =~ $rule_github_merges_ok ]]; then
     echo "Merge/Revert detected. Skipping commit-msg hook..."
     exit 1
