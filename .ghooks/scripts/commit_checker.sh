@@ -3,6 +3,7 @@
 commit_message="$1"
 projects="$2" | sed 's/ /|/g'
 echo $projects
+echo $commit_message
 
 # Do not run for merges or reverts.
 if [[ $commit_message =~ "^(Merge|Revert)" ]]; then
