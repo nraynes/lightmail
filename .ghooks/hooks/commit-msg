@@ -5,7 +5,7 @@ projects="$(bash "$ghooks_scripts_dir/getprojects.sh")"
 
 # Run commitlint
 echo "Running commitlint..."
-npx --no -- commitlint --edit \$1 --verbose
+npx --no -- commitlint --edit $1 --verbose
 
 # Run sub-project hooks.
 bash "$ghooks_scripts_dir/runhooks.sh" "$(basename "$0")"
