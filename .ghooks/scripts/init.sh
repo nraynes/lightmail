@@ -11,6 +11,14 @@ if [ "$current_git_hooks_path" != "$ghooks_main_hooks_path" ]; then
     git config core.hooksPath $ghooks_main_hooks_path
 fi
 echo
+echo "Ensuring main ghooks are executable..."
+main_hooks=("$(ls -F "$ghooks_main_hooks_path")")
+for hook_file in ${main_hooks[@]}; do
+    hook_file_path="$ghooks_main_hooks_path/$hook_file"
+    echo "Setting executable permissions for $hook_file..."
+    chmod -v +x $hook_file_path
+done
+echo
 echo "Would you like to add a sub-project?"
 while true; do
     select confirm in "yes" "no"; do
@@ -55,7 +63,6 @@ for sub_project in ${projects[@]}; do
 done
 echo
 echo "Ensuring all main hooks are present in sub-projects..."
-main_hooks=("$(ls -F "$ghooks_main_hooks_path")")
 for sub_project in ${projects[@]}; do
     sub_project_hooks_path="$main_project_path/$sub_project/.ghooks/hooks"
     for hook_file in ${main_hooks[@]}; do
