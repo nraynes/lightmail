@@ -14,17 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Enter UI project
-        run: cd ui
-
       - name: Run linter
-        run: npm run lint
+        run: cd ui && npm run lint
 
       - name: Run tests
-        run: npm run test
+        run: cd ui && npm run test
 
       - name: Update release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release@25 --internal ui/release.config.js
-        
+        run: cd ui && npx semantic-release@25 --internal ui/release.config.js
+
