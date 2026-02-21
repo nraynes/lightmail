@@ -3,15 +3,47 @@ ghooks_main_path="$(dirname "$ghook_main_hooks_dir")"
 ghooks_scripts_dir="$ghooks_main_path/scripts"
 altered_projects="$(bash "$ghooks_scripts_dir/alteredprojects.sh")"
 
+# Filter out bash garbage.
+filtered_altered_projects=()
+for item in ${altered_projects[@]}; do
+    if [ "$item" != "" ]; then
+        filtered_altered_projects+=($item)
+    fi
+done
+
+# Check if you've been naughty.
+if [ ${#altered_projects[@]} -gt 1 ]; then
+    echo "You cannot put changes to multiple sub-projects on the same commit. Separate them."
+    exit 1
+fi
+
 # Run commitlint
 echo "Running commitlint..."
 npx --no -- commitlint --edit $1 --verbose
 
-# Prepend altered projects to commit message.
-if [ "${altered_projects[@]}" != "" ]; then
-    prefix="$(echo "$altered_projects" | sed 's/ /:/g')"
-    echo "Adding prefix with altered projects to commit message..."
-    echo "[$prefix] $(cat $1)" > $1
+# Add project to scope
+if [ "${#altered_projects[@]}" -eq "1" ]; then
+    scope="$altered_projects"
+    commit_msg="$(cat $1)"
+    header_prefix="$(echo $commit_msg | cut -d ':' -f 1 | cut -d ')' -f 1)"
+    rest_of_message=${commit_msg:${#header_prefix}:$(( ${#commit_msg}-${#header_prefix} ))}
+    IFS='('
+    read -ra split_header_prefix <<< "$header_prefix"
+    new_msg=""
+    if [ "${#split_header_prefix[@]}" -eq "2" ]; then
+        new_scope=""
+        if [ "${split_header_prefix[1]}" != "" ]; then
+            new_scope="$scope-${split_header_prefix[1]}"
+        fi
+        new_msg="${split_header_prefix[0]}($new_scope$rest_of_message"
+    elif [ "${#split_header_prefix[@]}" -eq "1" ]; then
+        new_msg="${split_header_prefix[0]}($scope)$rest_of_message"
+    else
+        echo "Could not parse commit message. Ensure you are using the conventional commits standard."
+        exit 1
+    fi
+    echo "Adding project scope to commit message..."
+    echo "$new_msg" > $1
 fi
 
 # Run sub-project hooks.
