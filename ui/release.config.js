@@ -41,8 +41,7 @@ export default {
     [
       "@semantic-release/exec",
       {
-        prepareCmd:
-          "cd ui && npm version --no-git-tag-version ${nextRelease.version} && cd ..",
+        prepareCmd: "npm version --no-git-tag-version ${nextRelease.version}",
       },
     ],
     "@semantic-release/github",
