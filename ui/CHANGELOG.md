@@ -1,3 +1,9 @@
+## [0.3.3](https://github.com/nraynes/lightmail/compare/v0.3.2-ui...v0.3.3-ui) (2026-02-21)
+
+### Bug Fixes
+
+* **ui:** reordered plugins for semantic release ([3a705f6](https://github.com/nraynes/lightmail/commit/3a705f6b74f7d22301eeb74ca87d6f4b3ce7f5fb))
+
 ## [0.3.2](https://github.com/nraynes/lightmail/compare/v0.3.1-ui...v0.3.2-ui) (2026-02-21)
 
 ### Bug Fixes
