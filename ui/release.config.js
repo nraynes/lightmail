@@ -22,7 +22,6 @@ export default {
             release: "major",
           },
         ],
-        ignoreDefaultRules: true,
       },
     ],
     [
