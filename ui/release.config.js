@@ -54,12 +54,6 @@ export default {
         assets: ["package.json", "CHANGELOG.md"],
       },
     ],
-    [
-      "@semantic-release/exec",
-      {
-        prepareCmd: "npm version --no-git-tag-version ${nextRelease.version}",
-      },
-    ],
     "@semantic-release/github",
     [
       "@semantic-release/npm",
