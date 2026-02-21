@@ -7,16 +7,18 @@ export default {
       {
         releaseRules: [
           {
-            header: "^\\[.*ui:?.*\\] (feat):",
+            type: "feat",
+            scope: "^ui(-.*)?",
             release: "minor",
           },
           {
-            header: "^\\[.*ui:?.*\\] (fix):",
+            type: "fix",
+            scope: "^ui(-.*)?",
             release: "patch",
           },
           {
             type: "breaking",
-            header: "^\\[.*ui:?.*\\].*(BREAKING CHANGE):",
+            scope: "^ui(-.*)?",
             release: "major",
           },
         ],
