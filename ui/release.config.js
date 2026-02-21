@@ -48,6 +48,12 @@ export default {
       },
     ],
     [
+      "@semantic-release/npm",
+      {
+        npmPublish: false,
+      },
+    ],
+    [
       "@semantic-release/git",
       {
         tag: "v${nextRelease.version}-ui",
@@ -55,11 +61,5 @@ export default {
       },
     ],
     "@semantic-release/github",
-    [
-      "@semantic-release/npm",
-      {
-        npmPublish: false,
-      },
-    ],
   ],
 };
