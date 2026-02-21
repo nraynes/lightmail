@@ -36,6 +36,7 @@ export default {
       "@semantic-release/git",
       {
         tag: "v${nextRelease.version}-ui",
+        assets: ["package.json", "CHANGELOG.md"],
       },
     ],
     [
