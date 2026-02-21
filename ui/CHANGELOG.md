@@ -1,3 +1,9 @@
+## [0.3.2](https://github.com/nraynes/lightmail/compare/v0.3.1-ui...v0.3.2-ui) (2026-02-21)
+
+### Bug Fixes
+
+* **ui:** removing unnecessary exec ([0ccdbb1](https://github.com/nraynes/lightmail/commit/0ccdbb1da98f5087dcc4ffcde26619b36ab92a31))
+
 ## [0.3.1](https://github.com/nraynes/lightmail/compare/v0.3.0-ui...v0.3.1-ui) (2026-02-21)
 
 ### Bug Fixes
