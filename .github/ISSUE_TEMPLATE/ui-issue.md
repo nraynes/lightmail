@@ -1,7 +1,7 @@
 ---
 name: UI Issue
 about: A basic issue template for the UI project.
-title: 'UI: <title>'
+title: 'UI: '
 labels: ''
 assignees: ''
 
