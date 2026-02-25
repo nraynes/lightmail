@@ -1,6 +1,6 @@
 # Setup monorepo.
 npm i
-bash .ghooks/scripts/init.sh
+bash .ghooks/scripts/initghook.sh
 
 # Setup UI project.
 cd ui
