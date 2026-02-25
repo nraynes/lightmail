@@ -29,8 +29,19 @@ export default defineConfig([
   },
   {
     files: ["**/*.css"],
-    plugins: { css },
+    plugins: {
+      css,
+    },
     language: "css/css",
     extends: ["css/recommended", eslintPluginPrettierRecommended],
+    languageOptions: {
+      customSyntax: {
+        atrules: {
+          plugin: {
+            prelude: "<string>",
+          },
+        },
+      },
+    },
   },
 ]);
