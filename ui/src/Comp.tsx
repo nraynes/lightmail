@@ -1,3 +1,3 @@
 export default () => {
-  return <h2>Child component</h2>;
+  return <button class="btn btn-primary">Child component!</button>;
 };
