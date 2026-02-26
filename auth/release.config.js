@@ -38,6 +38,7 @@ export default {
         },
         parserOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+          headerPattern: /^\w*(\(auth-?\w*\))?:.*$/
         },
       },
     ],
@@ -57,7 +58,7 @@ export default {
       "@semantic-release/git",
       {
         tag: "v${nextRelease.version}-auth",
-        assets: ["Cargo.toml", "CHANGELOG.md"],
+        assets: ["Cargo.lock", "Cargo.toml", "CHANGELOG.md"],
       },
     ],
     "@semantic-release/github",
