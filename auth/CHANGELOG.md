@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/nraynes/lightmail/compare/v1.0.3-auth...v1.0.4-auth) (2026-02-26)
+
+### Bug Fixes
+
+* **adding a small change to test release:** fix(auth): adding a small change to test release ([019cd41](https://github.com/nraynes/lightmail/commit/019cd4173f2e76c1694a9582c79a8c009ebd49dc))
+* **modified header pattern match:** fix(auth): modified header pattern match ([9bc1275](https://github.com/nraynes/lightmail/commit/9bc1275ecad41d9ffef7743ca48ed00662389972))
+
 ## [1.0.3](https://github.com/nraynes/lightmail/compare/v1.0.2-auth...v1.0.3-auth) (2026-02-26)
 
 ### Bug Fixes
