@@ -1,3 +1,13 @@
+## [0.3.5](https://github.com/nraynes/lightmail/compare/v0.3.4-ui...v0.3.5-ui) (2026-02-26)
+
+### Bug Fixes
+
+- **forgot to change auth to ui:** fix(ui): forgot to change auth to ui ([d059cc0](https://github.com/nraynes/lightmail/commit/d059cc08ad5d40152d7e41c3da9ac2602fb8a850))
+
+### Miscellaneous Chores
+
+- **merged main:** chore(ui): merged main ([0d038ff](https://github.com/nraynes/lightmail/commit/0d038ffdfeece7751a5a28d6479c0f7f4c396af5))
+
 ## [0.3.4](https://github.com/nraynes/lightmail/compare/v0.3.3-ui...v0.3.4-ui) (2026-02-26)
 
 ### Bug Fixes
