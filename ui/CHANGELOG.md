@@ -1,3 +1,19 @@
+## [0.3.4](https://github.com/nraynes/lightmail/compare/v0.3.3-ui...v0.3.4-ui) (2026-02-26)
+
+### Bug Fixes
+
+- **attempting to fix header again:** fix(auth): attempting to fix header again ([64f8dc3](https://github.com/nraynes/lightmail/commit/64f8dc31bf120959795b4e3aef5405259a9d6db5))
+- **changed header pattern in semantic release to limit changlogs to sub project:** fix(auth): changed header pattern in semantic release to limit changlogs to sub project ([6b8f238](https://github.com/nraynes/lightmail/commit/6b8f238d41a442fda46f835c388865d093664a92))
+- **modified header pattern match:** fix(auth): modified header pattern match ([9bc1275](https://github.com/nraynes/lightmail/commit/9bc1275ecad41d9ffef7743ca48ed00662389972))
+- **modified regex to attempt to fix header matching for changelog:** fix(auth): modified regex to attempt to fix header matching for changelog ([683732b](https://github.com/nraynes/lightmail/commit/683732b2d9e197e1f6656dd1d3af15908fc7ddc0))
+
+### Miscellaneous Chores
+
+- **init auth service:** chore(auth): init auth service ([a77f600](https://github.com/nraynes/lightmail/commit/a77f600f3213e9685a7f906b6b7d941934364ecb))
+- **merged main:** chore(auth): merged main ([95f211b](https://github.com/nraynes/lightmail/commit/95f211be045e5cfdc81c7f3f4dfcc834cf2a39d2))
+- **removed vscode settings from git tracking:** chore(auth): removed vscode settings from git tracking ([5a61cdb](https://github.com/nraynes/lightmail/commit/5a61cdb19e58a7a157bdbf5a10acc024a71ace31))
+- **setup semantic release for auth project:** chore(auth): setup semantic release for auth project ([1103565](https://github.com/nraynes/lightmail/commit/1103565ad70f64274ddba2933bd11d2ca111fa60))
+
 ## [0.3.3](https://github.com/nraynes/lightmail/compare/v0.3.2-ui...v0.3.3-ui) (2026-02-21)
 
 ### Bug Fixes
