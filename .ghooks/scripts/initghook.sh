@@ -12,7 +12,7 @@ if [ "$current_git_hooks_path" != "$ghooks_main_hooks_path" ]; then
 fi
 echo
 echo "Ensuring main ghooks are executable..."
-main_hooks=("$(ls -F "$ghooks_main_hooks_path")")
+main_hooks=("$(ls "$ghooks_main_hooks_path")")
 for hook_file in ${main_hooks[@]}; do
     hook_file_path="$ghooks_main_hooks_path/$hook_file"
     echo "Setting executable permissions for $hook_file..."

@@ -1,4 +1,4 @@
-name: UI CI/CD Release
+name: Auth CI/CD Release
 
 permissions:
   contents: write
@@ -8,11 +8,11 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'ui/**'
+      - 'auth/**'
   workflow_dispatch:
 
 jobs:
-  release-ui:
+  release-auth:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Update UI Release
+      - name: Update Auth Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: cd ui && npx --package semantic-release@25 --package @semantic-release/changelog --package @semantic-release/git semantic-release
+        run: cd auth && npx --package semantic-release@25 --package @semantic-release/changelog --package @semantic-release/git --package @semantic-release/exec semantic-release
