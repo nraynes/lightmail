@@ -38,6 +38,7 @@ export default {
         },
         parserOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+          headerPattern: /^(\w*)(?:\(auth-?\w*\))?: (.*)$/,
         },
       },
     ],

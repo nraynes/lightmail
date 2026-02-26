@@ -1,7 +1,7 @@
 ghook_main_hooks_dir="$(realpath "$(dirname "$0")")"
 ghooks_main_path="$(dirname "$ghook_main_hooks_dir")"
 ghooks_scripts_dir="$ghooks_main_path/scripts"
-altered_projects="$(bash "$ghooks_scripts_dir/alteredprojects.sh")"
+altered_projects=("$(bash "$ghooks_scripts_dir/alteredprojects.sh")")
 
 # Filter out bash garbage.
 filtered_altered_projects=()
@@ -12,7 +12,8 @@ for item in ${altered_projects[@]}; do
 done
 
 # Check if you've been naughty.
-if [ ${#altered_projects[@]} -gt 1 ]; then
+echo "${filtered_altered_projects[@]} ${#filtered_altered_projects[@]}"
+if [ ${#filtered_altered_projects[@]} -gt 1 ]; then
     echo "You cannot put changes to multiple sub-projects on the same commit. Separate them."
     exit 1
 fi
