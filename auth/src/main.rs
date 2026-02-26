@@ -1,4 +1,4 @@
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
+use actix_web::{App, HttpResponse, HttpServer, Responder, get, post, web};
 
 #[get("/")]
 async fn hello() -> impl Responder {
@@ -11,8 +11,7 @@ async fn echo(req_body: String) -> impl Responder {
 }
 
 async fn manual_hello() -> impl Responder {
-    HttpResponse::Ok().body("Hey there!")
-}
+    HttpResponse::Ok().body("Hey there!")}
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {

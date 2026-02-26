@@ -1,27 +1,24 @@
-name: UI CI/CD Test
+name: Auth CI/CD Test
 
 on:
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'ui/**'
+      - 'auth/**'
   workflow_dispatch:
 
 jobs:
-  test-ui:
+  test-auth:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '24'
 
       - name: Install Dependencies
-        run: cd ui && npm install
+        run: cd auth && cargo build
 
       - name: Run Linters
-        run: cd ui && npm run lint
+        run: cd auth && cargo check && cargo clippy
 
       - name: Run Tests
-        run: cd ui && npm run test
+        run: cd auth && cargo test
